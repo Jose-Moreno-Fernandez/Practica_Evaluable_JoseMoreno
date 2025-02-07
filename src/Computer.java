@@ -8,5 +8,5 @@ public class Computer {
     private float cpu;
     private String motherBoard;
 
-
+    
 }
