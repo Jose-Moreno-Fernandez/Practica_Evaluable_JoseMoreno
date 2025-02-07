@@ -8,5 +8,12 @@ public class Computer {
     private float cpu;
     private String motherBoard;
 
-
+    /**
+     * Metodo toString que devuelve un mensaje con los componentes y los valores del ordenador
+     * @return El mensaje String.format sobre los componentes del ordenador
+     */
+    @Override
+    public String toString() {
+        return String.format("La memoria RAM es: %d%nLa CPU es: %.2f%nLa placa base es: %s%n", ram, cpu, motherBoard);
+    }
 }
